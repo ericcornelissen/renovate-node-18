@@ -1,5 +1,7 @@
 {
   extends: [
+    "config:base",
+
     // Make sure all updates are combined into a single PR
     "group:all",
   ],

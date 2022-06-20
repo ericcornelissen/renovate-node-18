@@ -2,7 +2,4 @@
   extends: [
     "config:base",
   ],
-
-  // Schedule PRs to be created once every two weeks
-  schedule: "on the first day of the month",
 }

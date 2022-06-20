@@ -2,9 +2,6 @@
   extends: [
     "config:base",
 
-    // Explicitly enable semantic commit messages
-    ":semanticCommits",
-
     // Make sure all updates are combined into a single PR
     "group:all",
   ],

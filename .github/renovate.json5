@@ -17,14 +17,6 @@
     }
   ],
 
-  lockFileMaintenance: {
-    // Explicitly enable lockfile maintenance
-    enabled: true,
-
-    // This schedule should be the same as the general schedule!
-    schedule: "on the first day of the month",
-  },
-
   // Schedule PRs to be created once every two weeks
   schedule: "on the first day of the month",
 

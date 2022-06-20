@@ -1,9 +1,6 @@
 {
   extends: [
     "config:base",
-
-    // Make sure all updates are combined into a single PR
-    "group:all",
   ],
 
   // Schedule PRs to be created once every two weeks

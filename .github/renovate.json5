@@ -9,14 +9,6 @@
     "group:all",
   ],
 
-  packageRules: [
-    {
-      // Configure SVGO v2: don't upgrade to v3.x.x
-      matchPackageNames: ["svgo-v2"],
-      allowedVersions: "<3.0.0"
-    }
-  ],
-
   // Schedule PRs to be created once every two weeks
   schedule: "on the first day of the month",
 

@@ -11,7 +11,4 @@
 
   // Schedule PRs to be created once every two weeks
   schedule: "on the first day of the month",
-
-  // Apply the 'dependencies' label to all Pull Requests created by Renovate
-  labels: ["dependencies"],
 }

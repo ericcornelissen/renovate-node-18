@@ -18,11 +18,6 @@
   ],
 
   lockFileMaintenance: {
-    extends: [
-      // Make sure all updates are combined into a single PR
-      "group:all",
-    ],
-
     // Explicitly enable lockfile maintenance
     enabled: true,
 
